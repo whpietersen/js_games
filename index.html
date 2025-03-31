@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Som Speletjie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="punteTelling">
+    <div id="telAf">-</div>
+    <div id="punteTelling" class="divBorder"><strong id="punte">0</strong> punte</div>
+
+    <div id="blank"></div>
+
+    <div id="levelBlock" class="divBorder"><span>Level:</span></div>
+    <div id="levelNumber">1</div>
+</div>
+
+<div class="container">
+    
+<h1 id="h1_titel">Die Som Speletjie</h1>
+
+<!-- <button class="btn" onclick="nuweSom()">Gee 'n nuwe som</button> -->
+
+<h2 id="vraag"><span id="eersteGetal"></span> <span id="simbool"></span> <span id="twedeGetal"></span> = ?</h2>
+
+<span id="pleaseText"></span>
+<input type="text" id="antwoord_text" onkeydown="triggerBerekening(event)" placeholder="">
+<br>
+
+<button class="btn" id="berekening" onclick="berekening()">Gee jou antwoord.</button>
+
+</div>
+
+<script src="brain.js"></script>
+</body>
+</html>

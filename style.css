@@ -1,0 +1,117 @@
+:root {
+    --pointBorderLine: solid 2px green;
+}
+
+body {
+    background-color: pink;
+    
+}
+
+.container {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+#antwoord_text {
+    height: 3rem;
+    width: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 3.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: darkmagenta;
+    border: solid 1px blue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 1.2rem;;
+}
+
+#berekening {
+    margin-top: 1rem;
+    background-color: orange;
+    border: red;
+}
+
+#h1_titel {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0.1px;
+    color: rgb(7, 12, 149);
+}
+
+#vraag {
+    font-family: "Sigmar", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: blue;
+    margin: 0.2rem;
+}
+
+#antwoord_tip_text {
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.punteTelling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBorder {
+    border: var(--pointBorderLine);
+}
+
+#telAf, #punteTelling, #levelBlock, #levelNumber {
+    font-family: "Sour Gummy", sans-serif;
+    color: green;
+    font-size: 1.25rem;
+    padding: 0.35rem;
+}
+
+#telAf {
+    width: 100px;
+    text-align: center;
+    border-top: var(--pointBorderLine);
+    border-left: var(--pointBorderLine);
+    border-bottom: var(--pointBorderLine);
+}
+
+#punteTelling {
+    width: 120px;
+    text-align: center;
+}
+
+#blank {
+    width: 50px;
+}
+
+#levelBlock {
+    width: 70px;
+    text-align: right;
+}
+
+#levelNumber {
+    width: 30px;
+    text-align: center;
+    border-top: var(--pointBorderLine);
+    border-right: var(--pointBorderLine);
+    border-bottom: var(--pointBorderLine);
+}
+
+#pleaseText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorchid;
+    display: block;
+    margin-bottom: 0.5rem;
+
+}
